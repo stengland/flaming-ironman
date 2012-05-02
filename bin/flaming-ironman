@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+$:<< '../lib' << 'lib'
+
+require 'rack'
+require 'flaming_ironman'
+
+FlamingIronman.session.login *ARGV
+
+Rack::Handler::Thin.run FlamingIronman::API
