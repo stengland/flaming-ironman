@@ -18,7 +18,7 @@ GEM
     hashie (1.2.0)
     multi_json (1.3.6)
     multi_xml (0.5.1)
-    rack (1.4.1)
+    rack (1.6.11)
     rack-mount (0.8.3)
       rack (>= 1.0.0)
     rack-test (0.6.1)
